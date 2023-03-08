@@ -9,6 +9,8 @@ const About = () => {
             <AboutCover></AboutCover>
             <AboutDescription></AboutDescription>
 
+
+
         </div>
     );
 };

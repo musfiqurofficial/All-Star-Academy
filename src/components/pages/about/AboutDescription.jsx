@@ -1,9 +1,14 @@
 import React from 'react';
+import admin from '../../../assets/About/admin.webp'
+import natasa from '../../../assets/About/natasa.webp'
+import teacher from '../../../assets/About/teacher.webp'
+import turner from '../../../assets/About/turner.webp'
+
 
 const AboutDescription = () => {
     return (
-        <div className='px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 my-10'>
-            <div>
+        <div className='px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8'>
+            <div className='my-10'>
                 <span className='text-center text-2xl font-semibold'>Personalized, advanced approach that causes children to LOVE learning.</span>
                 <p className='my-8'>Here at All-Star Academy we partner with parents, and any preferred providers, to deliver a personalized, exceptional education to their child. We recruit the most talented teachers that are able to customize learning plans and supersede behavioral or learning challenges. <br /><br />
                     Our mission is to drive a new era of education where parents have influence and each student is challenged in a holistic manner to create a fully competent, capable, and creative member of society. <br /><br />
@@ -22,29 +27,92 @@ const AboutDescription = () => {
 
                 <div className='mt-20'>
                     <h2 className='text-3xl font-semibold ml-6'>Come Meet Us!</h2>
-                    <button className='btn bg-green-500 shadow-md shadow-gray-600 w-60 h-12 text-base justify-center text-white my-10 font-medium'>BOOK A TOOR NOW</button>
+                    <button className='btn bg-green-500 shadow-md shadow-gray-600 w-60 h-14 text-xl justify-center text-white my-10 font-medium hover:bg-green-500 hover:text-black'>BOOK A TOOR NOW</button>
 
                 </div>
 
             </div>
             {/* Card description */}
             <div>
-                <div className="p-8 sm:p-16">
+                <div className="p-8">
+                    {/* 1st Card */}
                     <div className="flex flex-col lg:flex-row justify-between items-center">
-                        <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
 
-                            <p className='font-sans text-base text-gray-700'>
-                                From the Director: <br />
+                        <div className="mb-6 lg:mb-0 lg:w-8/12 lg:pr-5">
+
+                            <p className='font-sans text-base text-gray-700 mr-6'>
+                                From the Director: <br /> <br />
 
                                 "Hello! I am so pleased you found us! If you would would like to speak with me directly to get your questions answered, please schedule a call with me here: https://calendly.com/brandysimison/20min. I hope to speak with you soon!" - Brandy Simison</p>
 
                         </div>
                         <div>
-                            <img className='mb-3' src="https://static.wixstatic.com/media/2a89f4_f9f1b3749dd547a9b68d14e08e2ef192~mv2.jpg/v1/crop/x_369,y_0,w_633,h_722/fill/w_233,h_266,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/no%20background%20brandy%20blazer%2080_001.jpg" alt="" srcset="" />
+                            <img className='mb-3' src={admin} alt="" srcset="" />
                             <span className='font-medium text-xl my-2'>Brandy Simison, Director</span>
                             <p className='text-center'>Child Behavior Specialist</p>
                         </div>
+
                     </div>
+
+                    {/* 2ndt Card */}
+                    <div className="flex flex-col lg:flex-row justify-between items-center my-12">
+                        <div>
+                            <img className='mb-3 rounded-full' src={teacher} alt="" srcset="" />
+                            <span className='font-medium text-xl my-2'>Ms. Emily Good, Lead Teacher,</span>
+                            <p className='text-center'>1st/2nd grade Teacher</p>
+                        </div>
+
+
+                        <div className="mb-6 lg:mb-0 lg:w-8/12 lg:pr-5">
+
+                            <p className='font-sans text-base text-gray-700 ml-16'>
+                                Ms. Emily Good is a Masters-level teacher with 7 years of experience. She our lead teacher and educates 6-8 year olds in our 1st/2nd grade classroom. She is a Restorative Correction trained teacher and is known for her impeccable balance of being kind yet firm. Parents and students alike adore and respect Ms. Emily for her professionalism, kind heart, and most notably, the incredible development each of her students make in her classroom.</p>
+
+                        </div>
+
+
+                    </div>
+
+                    {/* 3rd Card */}
+                    <div className="flex flex-col lg:flex-row justify-between items-center my-12">
+                        <div className="mb-6 lg:mb-0 lg:w-8/12 lg:pr-5">
+
+                            <p className='font-sans text-base text-gray-700 mr-10'>
+                                Ms. Camille Turner is our PreK/Kindergarten teacher. She specializes in educating pre-kindergarten and kindergarten level students. She is trained in Restorative Correction and has been an early childhood educator for 3 years. Ms. Camille also leads our optional Bible Studies class and has a background in Pastoral Studies. She is most known for instilling a growth mindset and coming up with creative ways to educate her students. Parents appreciate her personable demeanor and focus on steady improvement.</p>
+                        </div>
+
+                        <div>
+                            <img className='mb-3 rounded-full' src={turner} alt="" srcset="" />
+                            <span className='font-medium text-xl my-2'>Ms. Camille Turner,</span>
+                            <p className='text-center'>PreK/Kindergarten Teacher</p>
+                        </div>
+
+
+                    </div>
+
+                    {/* 4th Card */}
+                    <div className="flex flex-col lg:flex-row justify-between items-center my-12">
+                        <div>
+                            <img className='mb-3 rounded-full' src={natasa} alt="" srcset="" />
+                            <span className='font-medium text-xl my-2'>Mrs. Natasha Migliacio,</span>
+                            <p className='text-center'>3rd/4th grade Teacher</p>
+                        </div>
+
+
+                        <div className="mb-6 lg:mb-0 lg:w-8/12 lg:pr-5">
+
+                            <p className='font-sans text-base text-gray-700 ml-16'>
+                                Mrs. Natasha Migliacio is our 3rd/4th grade teacher. She specializes in teaching elementary technology computer skills as well as core educational instruction for 3rd and 4th grade level students. Natasha has 7 years teaching experience. She is known for her cheerful demeanor and being able to "reach" kids to form a meaningful relationship  that bodes impactful learning. Parents appreciate how excited their children are to go to Ms. Natasha's class and how eager they are to share what they learned in class.</p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
                 </div>
 
             </div>
