@@ -34,20 +34,15 @@ const AboutDescription = () => {
                         <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
 
                             <p className='font-sans text-base text-gray-700'>
-                                From the Director:
+                                From the Director: <br />
 
                                 "Hello! I am so pleased you found us! If you would would like to speak with me directly to get your questions answered, please schedule a call with me here: https://calendly.com/brandysimison/20min. I hope to speak with you soon!" - Brandy Simison</p>
 
                         </div>
-                        <div className="">
-                            <img src="https://static.wixstatic.com/media/2a89f4_f9f1b3749dd547a9b68d14e08e2ef192~mv2.jpg/v1/crop/x_369,y_0,w_633,h_722/fill/w_233,h_266,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/no%20background%20brandy%20blazer%2080_001.jpg" alt="" srcset="" />
-                            <a
-                                href="/"
-                                aria-label=""
-                                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                            >
-
-                            </a>
+                        <div>
+                            <img className='mb-3' src="https://static.wixstatic.com/media/2a89f4_f9f1b3749dd547a9b68d14e08e2ef192~mv2.jpg/v1/crop/x_369,y_0,w_633,h_722/fill/w_233,h_266,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/no%20background%20brandy%20blazer%2080_001.jpg" alt="" srcset="" />
+                            <span className='font-medium text-xl my-2'>Brandy Simison, Director</span>
+                            <p className='text-center'>Child Behavior Specialist</p>
                         </div>
                     </div>
                 </div>
