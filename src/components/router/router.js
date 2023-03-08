@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import TermsOfUse from "../common/footer/TermsOfUse.jsx";
 import DisplayError from "../error/DisplayError.jsx";
 import Main from "../main/Main";
 import About from "../pages/about/About.jsx";
@@ -20,7 +21,11 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/about',
-                element: <About></About>
+                element: <About />
+            },
+            {
+                path: '/terms-of-use',
+                element: <TermsOfUse />
             },
         ]
     }

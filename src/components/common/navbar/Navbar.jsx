@@ -108,9 +108,8 @@ const Navbar = () => {
       <div class="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div class="relative flex items-center justify-between h-[100px]">
           <Link
-            href="/"
+            to="/"
             aria-label="Company"
-            title="Company"
             class="inline-flex items-center mx-auto sm:mx-0"
           >
             <img className="w-auto h-[80px]" src={logo} alt="" />
@@ -121,13 +120,13 @@ const Navbar = () => {
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
               <div className="flex flex-col items-center justify-between gap-1">
-                <Link
-                  href="/"
+                <a
+                  href="/https://calendly.com/brandysimison/60min?month=2023-03"
                   class="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center"
                   aria-label="Book a tour"
                 >
                   Book a tour <IoIosArrowForward className="w-5 h-5" />
-                </Link>
+                </a>
                 <h6 className="text-[#0170B8] font-light text-sm">
                   <HiOutlinePhone className="inline w-5 h-5" /> 425-526-4600
                 </h6>
@@ -161,31 +160,13 @@ const Navbar = () => {
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
-                      <a
-                        href="/"
+                      <Link
+                        to="/"
                         aria-label="Company"
-                        title="Company"
-                        class="inline-flex items-center"
+                        class="inline-flex items-center mx-auto sm:mx-0"
                       >
-                        <svg
-                          class="w-8 text-deep-purple-accent-400"
-                          viewBox="0 0 24 24"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeMiterlimit="10"
-                          stroke="currentColor"
-                          fill="none"
-                        >
-                          <rect x="3" y="1" width="7" height="12" />
-                          <rect x="3" y="17" width="7" height="6" />
-                          <rect x="14" y="1" width="7" height="6" />
-                          <rect x="14" y="11" width="7" height="12" />
-                        </svg>
-                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Company
-                        </span>
-                      </a>
+                        <img className="w-auto h-[80px]" src={logo} alt="" />
+                      </Link>
                     </div>
                     <div>
                       <button
@@ -207,13 +188,13 @@ const Navbar = () => {
                     <ul class="space-y-4">
                       {menuItems}
                       <li>
-                        <Link
-                          href="/"
+                        <a
+                          href="/https://calendly.com/brandysimison/60min?month=2023-03"
                           class="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
                           aria-label="Book a tour"
                         >
                           Book a tour
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </nav>

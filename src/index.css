@@ -8,13 +8,14 @@
 
 body {
   margin: 0;
-  /* font-family: "Montserrat", sans-serif; */
-  font-family: 'Tilt Neon', cursive;
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Tilt Neon", cursive; */
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
-  color: #093F7C;
+  font-size: 14px;
+  color: #093f7c;
+  line-height: 1.8rem;
 }
 
 code {
