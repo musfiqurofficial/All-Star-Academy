@@ -27,7 +27,7 @@ const AboutDescription = () => {
 
                 <div className='mt-20'>
                     <h2 className='text-3xl font-semibold ml-6'>Come Meet Us!</h2>
-                    <button className='btn bg-green-500 shadow-md shadow-gray-600 w-60 h-14 text-xl justify-center text-white my-10 font-medium hover:bg-green-500 hover:text-black'>BOOK A TOOR NOW</button>
+                    <button className='btn bg-green-500 shadow-md shadow-gray-600 rounded-md w-64 h-14 text-lg md:text-lg justify-center text-white my-10 font-medium hover:bg-green-500 hover:text-black ml-6'>BOOK A TOOR NOW</button>
 
                 </div>
 
@@ -58,7 +58,7 @@ const AboutDescription = () => {
                     <div className="flex flex-col lg:flex-row justify-between items-center my-12">
                         <div>
                             <img className='mb-3 rounded-full' src={teacher} alt="" srcset="" />
-                            <span className='font-medium text-xl my-2'>Ms. Emily Good, Lead Teacher,</span>
+                            <p className='font-medium text-lg my-2'>Ms. Emily Good, Lead Teacher,</p>
                             <p className='text-center'>1st/2nd grade Teacher</p>
                         </div>
 
