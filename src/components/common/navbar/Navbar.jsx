@@ -120,13 +120,13 @@ const Navbar = () => {
           <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
               <div className="flex flex-col items-center justify-between gap-1">
-                <Link
-                  href="/"
+                <a
+                  href="/https://calendly.com/brandysimison/60min?month=2023-03"
                   class="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center"
                   aria-label="Book a tour"
                 >
                   Book a tour <IoIosArrowForward className="w-5 h-5" />
-                </Link>
+                </a>
                 <h6 className="text-[#0170B8] font-light text-sm">
                   <HiOutlinePhone className="inline w-5 h-5" /> 425-526-4600
                 </h6>
@@ -188,13 +188,13 @@ const Navbar = () => {
                     <ul class="space-y-4">
                       {menuItems}
                       <li>
-                        <Link
-                          to="/"
+                        <a
+                          href="/https://calendly.com/brandysimison/60min?month=2023-03"
                           class="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
                           aria-label="Book a tour"
                         >
                           Book a tour
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </nav>

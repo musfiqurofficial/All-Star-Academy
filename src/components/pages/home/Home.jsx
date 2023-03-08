@@ -1,6 +1,8 @@
 import React from "react";
+import HomeCategoryCard from "./HomeCategoryCard";
 import HomeHero from "./HomeHero";
 import HomeJoy from "./HomeJoy";
+import HomeWhoWeAre from "./HomeWhoWeAre";
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
         <HomeHero />
       </div>
       <HomeJoy />
+      <HomeCategoryCard />
+      <HomeWhoWeAre />
     </div>
   );
 };
