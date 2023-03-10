@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const TermsOfUse = () => {
   return (
-    <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 py-10">
+    <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg md:px-18 lg:px-8 py-10">
       <ol className="list-decimal text-xs">
         <li>
           Notice/Acceptance of Terms
@@ -471,10 +471,10 @@ const TermsOfUse = () => {
             </li>
             <li>
               Assignment. COMPANY may assign its rights and duties under this
-              Agreement to any party at any time without notice to you. Please a 
-              <a href="/contact" target='_blank' className="underline">
-                 Contact Us 
-              </a> 
+              Agreement to any party at any time without notice to you. Please a
+              <a href="/contact" target="_blank" className="underline">
+                Contact Us
+              </a>
               if you have any questions or concerns regarding these terms.
             </li>
           </ol>

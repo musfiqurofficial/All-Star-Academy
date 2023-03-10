@@ -4,7 +4,7 @@ import JoyImg from "../../../assets/Home-Page/H-Card-Images/joy-in-learning-2.we
 const HomeJoy = () => {
   return (
     <div className="bg-[#FAFAFA] py-0 sm:py-20">
-      <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8">
         <div className="flex flex-col justify-center items-center">
           <img src={JoyImg} alt="" />
           <h1 className="text-[32px] font-[600] uppercase my-6">
