@@ -68,7 +68,7 @@ const Navbar = () => {
       <li>
         <NavLink
           className="hover:text-[#73C780]"
-          to="/school"
+          to="/afterschool"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           AFTER-SCHOOL
@@ -105,7 +105,7 @@ const Navbar = () => {
   );
   return (
     <div className="bg-[#fff] sticky top-0 z-50 shadow-sm">
-      <div class="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div class="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8">
         <div class="relative flex items-center justify-between h-[100px]">
           <Link
             to="/"
