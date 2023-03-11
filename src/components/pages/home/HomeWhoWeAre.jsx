@@ -8,7 +8,7 @@ const HomeWhoWeAre = () => {
   return (
     <div>
       <div className="flex lg:flex-row md:flex-row flex-col-reverse justify-center items-center gap-10">
-        <div className="w-full px-2 sm:px-0 sm:w-[70%] lg:ml-10 mx-auto text-center sm:text-start">
+        <div className="w-full px-2 sm:px-0 sm:w-[70%] lg:ml-10 md:ml-5 mx-auto text-center sm:text-start">
           <h1 className="text-[32px] font-[600] my-3">Who we are</h1>
           <p className="text-[18px]">
             We are a warm, easy-going, and welcoming community. Our intimate
