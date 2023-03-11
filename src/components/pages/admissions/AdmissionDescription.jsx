@@ -33,6 +33,8 @@ const AdmissionDescription = () => {
                 </h6>
             </div>
 
+
+
         </div>
     );
 };
