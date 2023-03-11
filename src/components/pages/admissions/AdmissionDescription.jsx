@@ -44,25 +44,25 @@ const AdmissionDescription = () => {
                     <h1 className='text-3xl font-semibold'>Scholarships:</h1>
                     <br /><br />
                     <p className='font-sans text-base text-gray-700 mr-6'>
-                        <span className='text-lg font-medium'>Tribal Scholarship:</span>  <br />
+                        <span className='text-lg font-medium underline'>Tribal Scholarship:</span>  <br />
 
 
 
-                        Fills the gap between tribal benefits and tuition cost. <a className='text-blue-400'
-                            href="https://account.microsoft.com/"> ASK NOW</a>  <br /><br /> <br /> <span className='text-lg font-medium'>General Scholarship:</span> <br />
+                        Fills the gap between tribal benefits and tuition cost. <a className='text-blue-400 underline'
+                            href="https://account.microsoft.com/"> ASK NOW</a>  <br /><br /> <br /> <span className='text-lg font-medium underline'>General Scholarship:</span> <br />
 
 
 
-                        We are known for providing scholarships. <br /> <a className='text-blue-400'
-                            href="https://account.microsoft.com/"> ASK NOW</a> <br /><br /> <br />  <h1 className='text-3xl font-semibold'>Discount:</h1> <br /> <br /> <span className='text-lg font-medium'>Sibling Discount:</span>  <br />
+                        We are known for providing scholarships. <br /> <a className='text-blue-400 underline'
+                            href="https://account.microsoft.com/"> ASK NOW</a> <br /><br /> <br />  <h1 className='text-3xl font-semibold'>Discount:</h1> <br /> <br /> <span className='text-lg font-medium underline'>Sibling Discount:</span>  <br />
 
 
 
-                        20% off annual or monthly tuition for each additional child. <br /> <br />  <h1 className='text-3xl font-semibold'>Policies:</h1> <br /> <br /> <span className='text-lg font-medium'>Withdraw Policy:</span>  <br />
+                        20% off annual or monthly tuition for each additional child. <br /> <br />  <h1 className='text-3xl font-semibold'>Policies:</h1> <br /> <br /> <span className='text-lg font-medium underline'>Withdraw Policy:</span>  <br />
 
 
 
-                        Written notification, 30 days in advance, is required if it is necessary to withdraw your child before the end of the school year. The registration/material fee and June tuition deposit are non-refundable; prorated if paid for year in-full. <br /> <br /> <span className='text-lg font-medium'>Absence & Vacation Policy:</span>  <br />
+                        Written notification, 30 days in advance, is required if it is necessary to withdraw your child before the end of the school year. The registration/material fee and June tuition deposit are non-refundable; prorated if paid for year in-full. <br /> <br /> <span className='text-lg font-medium underline'>Absence & Vacation Policy:</span>  <br />
 
 
 

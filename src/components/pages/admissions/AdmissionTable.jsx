@@ -46,7 +46,7 @@ const AdmissionTable = () => {
                         <td className="border border-sky-500 px-4 py-10">Seasonal Camps 9am-3pm <br />
                             [mid-winter break, spring <br /> break, & summer break]</td>
                         <td className="border border-sky-500 px-4 py-10">$4,550</td>
-                        <td className="border border-sky-500 px-4 py-10">$425/ week <br /> <a className='text-blue-500' href="https://www.6crickets.com/providerDirectory/US/WA/Issaquah/All-Star-Academy-fc79250f8c5b8043/programs/9942-w56b-zb3a/All-Star-Camp!?refer&provider=2439">Click here to learn more</a> </td>
+                        <td className="border border-sky-500 px-4 py-10">$425/ week <br /> <a className='text-blue-400 underline mt-3' href="https://www.6crickets.com/providerDirectory/US/WA/Issaquah/All-Star-Academy-fc79250f8c5b8043/programs/9942-w56b-zb3a/All-Star-Camp!?refer&provider=2439">Click here to learn more</a> </td>
                     </tr>
 
 
