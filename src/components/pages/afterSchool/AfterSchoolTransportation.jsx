@@ -1,5 +1,5 @@
 import React from "react";
-import Transport from "../../../../assets/School/Card/treansportation-cart.webp";
+import Transport from "../../../assets/School/Card/car.webp";
 
 const AfterSchoolTransportation = () => {
   return (

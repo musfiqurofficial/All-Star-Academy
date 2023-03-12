@@ -1,16 +1,19 @@
 import React from "react";
-import AfterSchoolHero from "./AfterSchoolHero";
 import AfterSchoolTransportation from "./AfterSchoolTransportation";
 import AfterSchoolHomeWork from "./AfterSchoolHomeWork";
-import AfterSchoolWeeklyLineup from "./AfterSchoolWeeklyLineup";
+import AfterSchoolWeeklyLineup from "./afterSchoolWeekly/AfterSchoolWeeklyLineup";
+import AfterSchoolHero from "./AfterSchoolHero";
+import AfterSchoolFaq from "./AfterSchoolFaq";
 
 const AfterSchool = () => {
   return (
     <div>
-      <AfterSchoolHero />
+      <AfterSchoolHero></AfterSchoolHero>
       <AfterSchoolTransportation />
       <AfterSchoolHomeWork />
       <AfterSchoolWeeklyLineup />
+      <AfterSchoolFaq></AfterSchoolFaq>
+
     </div>
   );
 };

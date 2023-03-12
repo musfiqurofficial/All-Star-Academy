@@ -1,8 +1,9 @@
 import React from "react";
-import HeroImg1 from "../../../../assets/School/Card/school1.webp";
-import HeroImg2 from "../../../../assets/School/Card/school2.webp";
-import HeroImg3 from "../../../../assets/School/Card/school3.webp";
-import HeroImg4 from "../../../../assets/School/Card/school4.webp";
+import HeroImg1 from "../../../assets/School/Card/school1.webp";
+import HeroImg2 from "../../../assets/School/Card/school2.webp";
+import HeroImg3 from "../../../assets/School/Card/school3.webp";
+import HeroImg4 from "../../../assets/School/Card/school4.webp";
+
 
 const AfterSchoolHero = () => {
   return (
@@ -54,8 +55,3 @@ const AfterSchoolHero = () => {
 
 export default AfterSchoolHero;
 
-{
-  /* <h1 className="text-center text-white font-[600] text-[32px] md:w-11/12">
-          DEVELOPING EACH CHILD TO THEIR POTENTIAL
-        </h1> */
-}
