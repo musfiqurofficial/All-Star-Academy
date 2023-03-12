@@ -6,6 +6,8 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const currentMonth = new Date().toISOString().slice(0, 7);
+  const link = `https://calendly.com/brandysimison/60min?month=${currentMonth}`;
 
   let activeStyle = {
     color: "#73C780",
@@ -14,7 +16,7 @@ const Navbar = () => {
     <>
       <li>
         <NavLink
-          className="hover:text-[#73C780]"
+          className="hover:text-[#73C780] text-[14px]"
           to="/about"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
@@ -23,7 +25,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          className="hover:text-[#73C780]"
+          className="hover:text-[#73C780] text-[14px]"
           to="/academics"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
@@ -32,7 +34,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          className="hover:text-[#73C780]"
+          className="hover:text-[#73C780] text-[14px]"
           to="/admission"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
@@ -41,7 +43,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          className="hover:text-[#73C780]"
+          className="hover:text-[#73C780] text-[14px]"
           to="/afterschool"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
@@ -49,17 +51,17 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink
-          className="hover:text-[#73C780]"
-          to="/camps"
-          style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        <a
+          className="hover:text-[#73C780] text-[14px]"
+          href="https://www.6crickets.com/providerDirectory/US/WA/Issaquah/All-Star-Academy-fc79250f8c5b8043/programs/9942-w56b-zb3a/All-Star-Camp!?refer&provider=2439"
+          target="_blank"
         >
           CAMPS
-        </NavLink>
+        </a>
       </li>
       <li>
         <NavLink
-          className="hover:text-[#73C780]"
+          className="hover:text-[#73C780] text-[14px]"
           to="/parents"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
@@ -67,12 +69,12 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink className="hover:text-[#73C780]">More</NavLink>
+        <NavLink className="hover:text-[#73C780] text-[14px]">More</NavLink>
       </li>
     </>
   );
   return (
-    <div className="bg-[#fff] sticky top-0 z-50 shadow-sm">
+    <div className="bg-[#fff] sticky top-0 z-50">
       <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8">
         <div className="relative flex items-center justify-between h-[100px]">
           <Link
@@ -85,13 +87,14 @@ const Navbar = () => {
           <ul className="flex items-center hidden space-x-8 lg:flex">
             {menuItems}
           </ul>
-          <ul className="flex items-center hidden space-x-8 lg:flex">
+          <ul className="flex items-center hidden space-x-8 lg:flex ">
             <li>
               <div className="flex flex-col items-center justify-between gap-1">
                 <a
-                  href="https://calendly.com/brandysimison/60min?month=2023-03"
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center"
-                  aria-label="Book a tour"
                 >
                   Book a tour <IoIosArrowForward className="w-5 h-5" />
                 </a>
@@ -157,8 +160,9 @@ const Navbar = () => {
                       {menuItems}
                       <li>
                         <a
-                          href="https://calendly.com/brandysimison/60min?month=2023-03"
+                          href={link}
                           className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
+                          target="_blank"
                           aria-label="Book a tour"
                         >
                           Book a tour
