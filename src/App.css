@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.hover\:text-\[#73C780\]:hover {
+  color: #73c780;
+}
+.text-\[#73C780\] {
+  color: #73c780;
+}

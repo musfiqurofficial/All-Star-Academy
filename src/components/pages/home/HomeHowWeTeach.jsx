@@ -17,7 +17,7 @@ const HomeHowWeTeach = () => {
           </p>
           <a
             href="/https://calendly.com/brandysimison/60min?month=2023-03"
-            class="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center my-2 w-9/12 sm:w-1/2 mx-auto sm:mx-0"
+            className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center my-2 w-9/12 sm:w-1/2 mx-auto sm:mx-0"
             aria-label="Book a tour"
           >
             Book a tour <IoIosArrowForward className="w-5 h-5" />
@@ -61,7 +61,7 @@ const HomeHowWeTeach = () => {
           </p>
           <a
             href="/https://calendly.com/brandysimison/60min?month=2023-03"
-            class="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center my-2 w-9/12 sm:w-1/2 mx-auto sm:mx-0"
+            className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center my-2 w-9/12 sm:w-1/2 mx-auto sm:mx-0"
             aria-label="Book a tour"
           >
             Book a tour <IoIosArrowForward className="w-5 h-5" />

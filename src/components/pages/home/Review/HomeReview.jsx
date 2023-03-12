@@ -39,7 +39,7 @@ const HomeReview = () => {
       <div className="w-10/12 mx-auto text-center mt-5">
         <a
           href="/https://calendly.com/brandysimison/60min?month=2023-03"
-          class="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
+          className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
           aria-label="Book a tour"
         >
           Book a tour

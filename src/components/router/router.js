@@ -5,7 +5,7 @@ import Main from "../main/Main";
 import About from "../pages/about/About.jsx";
 import Academics from "../pages/academics/Academics.jsx";
 import Admissions from "../pages/admissions/Admissions.jsx";
-import AfterSchool from "../pages/home/afterSchool/AfterSchool.jsx";
+import AfterSchool from "../afterSchool/AfterSchool.jsx";
 import Home from "../pages/home/Home";
 
 export const router = createBrowserRouter([

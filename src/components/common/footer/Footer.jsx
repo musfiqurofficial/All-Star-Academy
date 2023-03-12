@@ -13,7 +13,7 @@ const Footer = () => {
               to="/"
               aria-label="Company"
               title="Company"
-              class="inline-flex items-center mx-auto sm:mx-0"
+              className="inline-flex items-center mx-auto sm:mx-0"
             >
               <img className="w-auto h-[80px]" src={logo} alt="" />
             </Link>
