@@ -21,20 +21,7 @@ const AfterSchoolHomeWork = () => {
         </div>
       </div>
 
-      <div className=' mt-4'>
 
-        <div className=" bg-[#0D5EBA] relative">
-          <div className="flex flex-col-reverse sm:flex-row justify-center items-center h-[130px] px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8 gap-5">
-            <h1 className=" text-center text-white font-[600] text-[44px] sm:text-[32px] mx-auto">
-              A Few Common Questions
-            </h1>
-          </div>
-        </div>
-
-
-
-
-      </div>
     </div>
   );
 };
