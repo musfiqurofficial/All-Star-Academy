@@ -1,8 +1,8 @@
 import React from "react";
-import HeroImg1 from "../../assets/School/Card/school1.webp";
-import HeroImg2 from "../../assets/School/Card/school2.webp";
-import HeroImg3 from "../../assets/School/Card/school3.webp";
-import HeroImg4 from "../../assets/School/Card/school4.webp";
+import HeroImg1 from "../../../assets/School/Card/school1.webp";
+import HeroImg2 from "../../../assets/School/Card/school2.webp";
+import HeroImg3 from "../../../assets/School/Card/school3.webp";
+import HeroImg4 from "../../../assets/School/Card/school4.webp";
 
 const AfterSchoolHero = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import HomeWork1 from "../../assets/School/home-work.webp";
-import HomeWork2 from "../../assets/School/home-work-2.webp";
-import HomeWork3 from "../../assets/School/home-work3.webp";
+import HomeWork1 from "../../../assets/School/home-work.webp";
+import HomeWork2 from "../../../assets/School/home-work-2.webp";
+import HomeWork3 from "../../../assets/School/home-work3.webp";
 
 const AfterSchoolHomeWork = () => {
   return (

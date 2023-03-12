@@ -17,7 +17,7 @@ const HomeHero = () => {
         DEVELOPING EACH CHILD TO THEIR POTENTIAL
       </h1>
       <div className="absolute -bottom-8 p-4 border-2 border-green-600 bg-[#fff] hover:bg-green-600 hover:text-[#fff] hover:duration-500 font-[600] text-lg uppercase">
-        <a href="/https://allstarkiddos.lpages.co/infopacket/" target="_blank">
+        <a href="https://allstarkiddos.lpages.co/infopacket/" target="_blank">
           Download Info Packet
         </a>
       </div>

@@ -89,7 +89,7 @@ const Navbar = () => {
             <li>
               <div className="flex flex-col items-center justify-between gap-1">
                 <a
-                  href="/https://calendly.com/brandysimison/60min?month=2023-03"
+                  href="https://calendly.com/brandysimison/60min?month=2023-03"
                   className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center"
                   aria-label="Book a tour"
                 >
@@ -157,7 +157,7 @@ const Navbar = () => {
                       {menuItems}
                       <li>
                         <a
-                          href="/https://calendly.com/brandysimison/60min?month=2023-03"
+                          href="https://calendly.com/brandysimison/60min?month=2023-03"
                           className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
                           aria-label="Book a tour"
                         >
