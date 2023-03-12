@@ -41,7 +41,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/afterschool',
-                element: <AfterSchool />
+                element: <AfterSchool></AfterSchool>
             },
             {
                 path: '/parents',
