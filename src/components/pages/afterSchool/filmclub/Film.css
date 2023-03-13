@@ -1,0 +1,72 @@
+.fast_section {
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.fast_section h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+
+}
+
+.fast_section h2 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    color: white;
+    transform: translate(-50%, -50%);
+
+}
+
+/* section 1 style end  */
+
+/* section 2 style start  */
+.sign_up_baton {
+
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.sign_up_baton:hover {
+    border: 1px solid blue;
+}
+
+/* .dater_times {
+    background-image: url("../img/icon/timetable.png");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+} */
+
+
+
+/* section  style end  */
+.gredent_color {
+    height: 580px;
+    width: 100%;
+    background: #FC5C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+/* section 4 */
+.earth {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/744/744480.png");
+    height: 400px;
+    width: 400px;
+    background-position: center;
+    background-size: cover;
+}

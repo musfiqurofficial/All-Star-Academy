@@ -12,6 +12,7 @@ const AfterSchoolTransportation = () => {
         </h6>
         <img className="absolute sm:static -top-32 w-80 sm:w-[400px]" src={Transport} alt="" />
       </div>
+
     </div>
   );
 };
