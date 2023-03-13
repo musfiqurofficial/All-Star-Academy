@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="bg-[#fff]">
+    <div className="bg-[#fff] mt-10">
       <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8 py-5">
         <div className="grid gap-8 row-gap-10 mb-8 lg:grid-cols-4">
           <div className="md:max-w-md lg:col-span-1">
@@ -18,9 +18,9 @@ const Footer = () => {
               <img className="w-auto h-[80px]" src={logo} alt="" />
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-3 md:grid-cols-3 text-center">
+          <div className="grid grid-cols-1 gap-5 row-gap-8 lg:col-span-3 md:grid-cols-3 text-center">
             <div>
-              <h4 className="font-[600] text-lg mb-5">Address</h4>
+              <h4 className="font-[600] mb-5">Address</h4>
               <ul className="mt-2 space-y-2">
                 <li>
                   <address>
@@ -30,18 +30,20 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h4 className="font-[600] text-lg mb-5">Contact Us</h4>
+              <h4 className="font-[600] text-[24px] mb-5">Contact Us</h4>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <h6>Tel: 425-526-4600</h6>
+                  <h6 className="text-base">Tel: 425-526-4600</h6>
                 </li>
                 <li>
-                  <h6>Email: brandy@allstarkiddos.com</h6>
+                  <h6 className="text-base">Email: brandy@allstarkiddos.com</h6>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-[600] text-lg mb-5">Registration Info:</h4>
+              <h4 className="font-[600] text-[24px] mb-5">
+                Registration Info:
+              </h4>
               <ul className="mt-2 space-y-2 flex justify-end">
                 <li>
                   <img src={footerImg} alt="" />
@@ -51,8 +53,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 pb-8 sm:pb-0 border-t sm:flex-row items-center">
-          <p className="">© Copyright 2022 by All-Star Academy.</p>
-          <h6>
+          <p className="text-base">© Copyright 2022 by All-Star Academy.</p>
+          <h6 className="text-sm">
             <a className="underline" target="_blank" href="/terms-of-use">
               Terms of Use
             </a>

@@ -10,10 +10,10 @@ const AboutDescription = () => {
   return (
     <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8">
       <div className="my-10">
-        <span className="text-center text-[26px] font-semibold">
+        <h3 className="text-[26px] font-semibold">
           Personalized, advanced approach that causes children to LOVE learning.
-        </span>
-        <p className="my-8 font-sans ">
+        </h3>
+        <p className="mt-5 mb-10">
           Here at All-Star Academy we partner with parents, and any preferred
           providers, to deliver a personalized, exceptional education to their
           child. We recruit the most talented teachers that are able to
@@ -32,11 +32,9 @@ const AboutDescription = () => {
           children 4-12 years old.{" "}
         </p>
 
-        <span className="text-center text-[26px] font-semibold">
-          HOW WE OPERATE
-        </span>
+        <h3 className="text-[26px] font-semibold">HOW WE OPERATE</h3>
 
-        <p className="my-8 font-sans ">
+        <p className="mt-5 mb-10">
           We believe that education at its best should extend whole child
           development. As such, our students are taught how to grow a garden,
           how to care for animals and are taught social and emotional skills. We
@@ -54,10 +52,8 @@ const AboutDescription = () => {
           unwavering kindness, self-motivation, and good citizenship.
         </p>
 
-        <span className="text-center text-[26px] font-semibold">
-          HOW WE STARTED
-        </span>
-        <p className="my-8 font-sans ">
+        <h3 className="text-[26px] font-semibold">HOW WE STARTED</h3>
+        <p className="mt-5 mb-10">
           Our Director, Brandy Simison, grew up in a small town and experienced
           the benefits of small classroom sizes and a tight-knit community.
           After training as a Certified Psychiatric Rehabilitation Practitioner,
@@ -83,20 +79,25 @@ const AboutDescription = () => {
           we serve (surveying each semester).{" "}
         </p>
 
-        <div className="mt-14">
-          <h2 className="text-3xl font-semibold ml-6">Come Meet Us!</h2>
-          <button className="btn bg-[#4EBA59] hover:bg-[#4f9756] shadow-custom w-64 h-14 text-lg md:text-lg justify-center text-white my-5 font-medium hover:text-white ml-6">
+        <div className="flex flex-col-reverse sm:flex-col ml-0 sm:ml-6">
+          <h2 className="text-center sm:text-start mt-8 text-[26px] font-semibold ">
+            Come Meet Us!
+          </h2>
+          <a
+            href={link}
+            className="w-auto sm:w-1/2 mx-auto sm:mx-0 text-center bg-[#4EBA59] hover:bg-[#4f9756] shadow-custom px-8 py-4 text-lg md:text-lg text-white my-5 font-medium "
+          >
             BOOK A TOOR NOW
-          </button>
+          </a>
         </div>
       </div>
       {/* Card description */}
       <div>
         <div className="">
           {/* 1st Card */}
-          <div className="flex flex-col lg:flex-row justify-between items-center">
-            <div className="mb-6 lg:mb-0 lg:w-8/12 lg:pr-5">
-              <p className="font-sans text-base text-gray-700 mr-6">
+          <div className="flex flex-col-reverse lg:flex-row md:flex-col-reverse justify-between items-center">
+            <div className="lg:mb-0 lg:w-8/12 lg:pr-5 mb-10">
+              <p className="text-base mr-6">
                 From the Director: <br /> <br />
                 "Hello! I am so pleased you found us! If you would would like to
                 speak with me directly to get your questions answered, please
@@ -108,7 +109,7 @@ const AboutDescription = () => {
                 . I hope to speak with you soon!" - Brandy Simison
               </p>
             </div>
-            <div>
+            <div className="lg:mb-0 md:mb-14 mb-14">
               <img className="mb-3" src={admin} alt="" srcset="" />
               <span className="font-medium text-xl my-2">
                 Brandy Simison, Director
@@ -119,7 +120,7 @@ const AboutDescription = () => {
 
           {/* 2ndt Card */}
           <div className="flex flex-col lg:flex-row justify-between items-center ">
-            <div>
+            <div className="lg:mb-0 md:mb-14 mb-14">
               <img
                 className="mb-3 rounded-full"
                 src={teacher}
@@ -132,8 +133,8 @@ const AboutDescription = () => {
               <p className="text-center">1st/2nd grade Teacher</p>
             </div>
 
-            <div className="mb-6 lg:mb-0 lg:w-8/12 lg:pr-5">
-              <p className="font-sans text-base text-gray-700 ml-16">
+            <div className="mb-10 lg:mb-0 lg:w-8/12 lg:pr-5">
+              <p className=" text-base text-gray-700 lg:ml-16 ">
                 Ms. Emily Good is a Masters-level teacher with 7 years of
                 experience. She our lead teacher and educates 6-8 year olds in
                 our 1st/2nd grade classroom. She is a Restorative Correction
@@ -147,9 +148,9 @@ const AboutDescription = () => {
           </div>
 
           {/* 3rd Card */}
-          <div className="flex flex-col lg:flex-row justify-between items-center ">
+          <div className="flex flex-col-reverse lg:flex-row md:flex-col-reverse justify-between items-center">
             <div className="mb-6 lg:mb-0 lg:w-8/12 lg:pr-5">
-              <p className="font-sans text-base text-gray-700 mr-10">
+              <p className=" text-base text-gray-700 lg:mr-10 mb-10 lg:mb-0">
                 Ms. Camille Turner is our PreK/Kindergarten teacher. She
                 specializes in educating pre-kindergarten and kindergarten level
                 students. She is trained in Restorative Correction and has been
@@ -162,7 +163,7 @@ const AboutDescription = () => {
               </p>
             </div>
 
-            <div>
+            <div className="lg:mb-0 md:mb-14 mb-14">
               <img
                 className="mb-3 rounded-full"
                 src={turner}
@@ -178,7 +179,7 @@ const AboutDescription = () => {
 
           {/* 4th Card */}
           <div className="flex flex-col lg:flex-row justify-between items-center mb-20">
-            <div>
+            <div className="lg:mb-0 md:mb-14 mb-14">
               <img
                 className="mb-3 rounded-full"
                 src={natasa}
@@ -192,7 +193,7 @@ const AboutDescription = () => {
             </div>
 
             <div className="mb-6 lg:mb-0 lg:w-8/12 lg:pr-5">
-              <p className="font-sans text-base text-gray-700 ml-16">
+              <p className=" text-base text-gray-700 lg:ml-16">
                 Mrs. Natasha Migliacio is our 3rd/4th grade teacher. She
                 specializes in teaching elementary technology computer skills as
                 well as core educational instruction for 3rd and 4th grade level
