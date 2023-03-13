@@ -40,12 +40,14 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink
-          className="hover:text-[#73C780]"
-          to="/afterschool"
-          style={({ isActive }) => (isActive ? activeStyle : undefined)}
-        >
-          AFTER-SCHOOL
+        <NavLink to="/afterschool" className="hover:text-[#73C780]" >
+          <div>
+            <span className="peer">AFTER-SCHOOL</span>
+            <div class="hidden peer-hover:flex hover:flex w-[120px] flex-col bg-white drop-shadow-lg">
+              <Link to="/film" className="px-4 py-2 hover:bg-gray-200">FILM CLUB</Link>
+
+            </div>
+          </div>
         </NavLink>
       </li>
       <li>
@@ -67,7 +69,15 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink className="hover:text-[#73C780]">More</NavLink>
+        <NavLink className="hover:text-[#73C780]" >
+          <div>
+            <button class="peer px-5 py-2 text-black">More</button>
+            <div class="hidden peer-hover:flex hover:flex w-[100px] flex-col bg-white drop-shadow-lg">
+              <Link to="/contact" className="px-4 py-2 hover:bg-gray-200">Contact</Link>
+              <Link to="/birthday" className="px-4 py-2 hover:bg-gray-200">Birthday</Link>
+            </div>
+          </div>
+        </NavLink>
       </li>
     </>
   );
