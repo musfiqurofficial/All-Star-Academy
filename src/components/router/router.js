@@ -6,6 +6,8 @@ import About from "../pages/about/About.jsx";
 import Academics from "../pages/academics/Academics.jsx";
 import Admissions from "../pages/admissions/Admissions.jsx";
 import AfterSchool from "../pages/afterSchool/AfterSchool.jsx";
+import FilmMain from "../pages/afterSchool/filmclub/FilmMain.jsx";
+import Contact from "../pages/contact/Contact.jsx";
 import Home from "../pages/home/Home";
 
 export const router = createBrowserRouter([
@@ -41,6 +43,14 @@ export const router = createBrowserRouter([
             {
                 path: '/afterschool',
                 element: <AfterSchool></AfterSchool>
+            },
+            {
+                path: '/film',
+                element: <FilmMain></FilmMain>
+            },
+            {
+                path: '/contact',
+                element: <Contact></Contact>
             },
 
         ]
