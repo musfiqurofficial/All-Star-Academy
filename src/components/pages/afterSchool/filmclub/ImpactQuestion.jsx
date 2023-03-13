@@ -5,21 +5,23 @@ import f2 from '../../../../assets/School/Film-Club/f2.webp'
 const ImpactQuestion = () => {
     return (
         <div>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-4 mx-auto max-w-full my-6'>
-                <div>
-                    <h1 className='text-5xl font-bold -rotate-12 my-8'>FRIENDSHIP!</h1>
-                    <img className='my-24' src={f1} alt="" srcset="" />
-                </div>
-                <div className='grid row-span-2'>
-                    <img className='h-60 w-auto' src="https://cdn-icons-png.flaticon.com/512/7185/7185630.png" alt="" srcset="" />
-                    <img className='h-56 w-auto' src="https://cdn-icons-png.flaticon.com/512/2839/2839131.png" alt="" srcset="" />
+            <div className=''>
+                <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 my-6'>
+                    <div>
+                        <h1 className='text-5xl font-bold -rotate-12 my-8'>FRIENDSHIP!</h1>
+                        <img className='my-24' src={f1} alt="" srcset="" />
+                    </div>
+                    <div className='grid row-span-2'>
+                        <img className='h-60 w-auto' src="https://cdn-icons-png.flaticon.com/512/7185/7185630.png" alt="" srcset="" />
+                        <img className='h-56 w-auto' src="https://cdn-icons-png.flaticon.com/512/2839/2839131.png" alt="" srcset="" />
+                    </div>
+
+                    <div>
+                        <h1 className='text-5xl font-bold rotate-12 my-12'>TEAMWORK!</h1>
+                        <img className='my-5' src={f2} alt="" srcset="" /></div>
                 </div>
 
-                <div>
-                    <h1 className='text-5xl font-bold rotate-12 my-12'>TEAMWORK!</h1>
-                    <img className='my-5' src={f2} alt="" srcset="" /></div>
             </div>
-
 
             <section className="grid grid-cols-1 md:grid-cols-2 border-2 border-black my-10">
                 <div className="p-5">
@@ -39,29 +41,31 @@ const ImpactQuestion = () => {
             </section>
 
 
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 '>
-                {/* 1st grid */}
-                <div>
-                    <img className='h-52 w-auto border-round p-1' src="https://cdn-icons-png.flaticon.com/512/3840/3840674.png" alt="" srcset="" />
+            <div className='px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 '>
+                    {/* 1st grid */}
+                    <div>
+                        <img className='h-52 border-round p-1' src="https://cdn-icons-png.flaticon.com/512/3840/3840674.png" alt="" srcset="" />
+                    </div>
+
+                    {/* 2nd grid */}
+                    <div className='col-span-2 text-center'>
+                        <h1 className='text-4xl font-semibold'>FOR FURTHER QUESTIONS:</h1> <br />
+                        <p><span className='text-2xl font-semibold'>Email Us Here:</span> <br />
+                            GraceNatalie1@outlook.com <br />
+                            taylorjonson3@gmail.com</p>
+                    </div>
+
+                    {/* 3rd grid */}
+                    <div>
+                        <img className='h-52 p-1' src="https://cdn-icons-png.flaticon.com/512/3840/3840674.png" alt="" srcset="" />
+                    </div>
+
+
+
                 </div>
-
-                {/* 2nd grid */}
-                <div className='col-span-2 text-center'>
-                    <h1 className='text-4xl font-semibold'>FOR FURTHER QUESTIONS:</h1> <br />
-                    <p><span className='text-2xl font-semibold'>Email Us Here:</span> <br />
-                        GraceNatalie1@outlook.com <br />
-                        taylorjonson3@gmail.com</p>
-                </div>
-
-                {/* 3rd grid */}
-                <div>
-                    <img className='h-52 w-auto border-round p-1' src="https://cdn-icons-png.flaticon.com/512/3840/3840674.png" alt="" srcset="" />
-                </div>
-
-
 
             </div>
-
 
 
         </div>
