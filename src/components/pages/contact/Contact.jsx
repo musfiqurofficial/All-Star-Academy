@@ -16,7 +16,7 @@ const Contact = () => {
                             will get back to you within 2 business days.
                         </p>
                         <form className="flex flex-col gap-2">
-                            <input type="text" name="name" placeholder="Name*" />
+                            <input className='hover:border-[#093F7C]' type="text" name="name" placeholder="Name*" />
                             <input type="email" name="email" placeholder="Email*" />
                             <input type="text" name="subject" placeholder="Subject*" />
                             <textarea
@@ -27,7 +27,7 @@ const Contact = () => {
                                 rows="5"
                                 placeholder="Message"
                             />
-                            <input className="baton mt-5" type="submit" value="Send" />
+                            <input className="baton mt-3 rounded-sm" type="submit" value="Send" />
                         </form>
                     </div>
                     <div className="flex flex-col justify-center p-5">
@@ -35,7 +35,7 @@ const Contact = () => {
                             For all inquiries, please call our main reception between 8.30am-4.30pm:
                             425-526-4600
                         </p>
-                        <br />
+
                         <p className="mt-20">
                             30355 SE Highpoint Way
                             <br />

@@ -2,3 +2,4 @@
 ### color2: #73C780
 ### Textcolor3: #093F7C
 ### BG color: #FAFAFA
+### text color: #093F7C

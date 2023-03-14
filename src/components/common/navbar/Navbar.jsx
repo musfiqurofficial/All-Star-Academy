@@ -42,7 +42,7 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink to="/afterschool" className="hover:text-[#73C780]" >
+        <NavLink to="/afterschool" className="hover:text-[#73C780] text-[14px]" >
           <div>
             <span className="peer">AFTER-SCHOOL</span>
             <div class="hidden peer-hover:flex hover:flex w-[120px] flex-col bg-white drop-shadow-lg">
@@ -71,7 +71,7 @@ const Navbar = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink className="hover:text-[#73C780]" >
+        <NavLink className="hover:text-[#73C780] text-[14px]" >
           <div>
             <button class="peer px-5 py-2 text-black">More</button>
             <div class="hidden peer-hover:flex hover:flex w-[100px] flex-col bg-white drop-shadow-lg">
