@@ -4,6 +4,8 @@ import WhyImg from "../../../assets/Home-Page/H-Card-Images/Whywecare-4.webp";
 import { IoIosArrowForward } from "react-icons/io";
 
 const HomeHowWeTeach = () => {
+  const currentMonth = new Date().toISOString().slice(0, 7);
+  const link = `https://calendly.com/brandysimison/60min?month=${currentMonth}`;
   return (
     <div>
       <div className="flex lg:flex-row md:flex-row flex-col-reverse justify-center items-center gap-10">
@@ -16,7 +18,8 @@ const HomeHowWeTeach = () => {
             optional specialist classes.
           </p>
           <a
-            href="https://calendly.com/brandysimison/60min?month=2023-03"
+            href={link}
+            target="_blank"
             className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center my-2 w-9/12 sm:w-1/2 mx-auto sm:mx-0"
             aria-label="Book a tour"
           >
@@ -60,7 +63,8 @@ const HomeHowWeTeach = () => {
             our worldly problems over time.
           </p>
           <a
-            href="https://calendly.com/brandysimison/60min?month=2023-03"
+            href={link}
+            target="_blank"
             className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center my-2 w-9/12 sm:w-1/2 mx-auto sm:mx-0"
             aria-label="Book a tour"
           >

@@ -10,7 +10,7 @@ const HomeReady = () => {
   };
 
   return (
-    <div className="bg-[#fff] my-10">
+    <div className="bg-[#fff] mt-10 mb-20">
       <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8">
         <h1 className="text-center font-[600] text-[32px]">
           Ready to take the next step?

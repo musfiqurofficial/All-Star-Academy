@@ -10,7 +10,7 @@ const HomeJoy = () => {
           <h1 className="text-[32px] font-[600] uppercase my-6">
             JOY IN LEARNING
           </h1>
-          <h3 className="w-full sm:w-9/12 text-[26px] text-justify font-light">
+          <h3 className="w-full sm:w-9/12 mb-3 sm:mb-0 text-justify font-light">
             Our students develop a love of learning and meet their current
             potential academically, socially, and emotionally within 6 months.
           </h3>

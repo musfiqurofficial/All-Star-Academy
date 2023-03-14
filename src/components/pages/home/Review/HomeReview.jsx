@@ -23,6 +23,9 @@ const HomeReview = () => {
   const onSortEnd = ({ oldIndex, newIndex }) => {
     setItems(arrayMove(items, oldIndex, newIndex));
   };
+
+  const currentMonth = new Date().toISOString().slice(0, 7);
+  const link = `https://calendly.com/brandysimison/60min?month=${currentMonth}`;
   return (
     <div className="mb-20">
       <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8">
@@ -38,7 +41,8 @@ const HomeReview = () => {
       </div>
       <div className="w-10/12 mx-auto text-center mt-5">
         <a
-          href="https://calendly.com/brandysimison/60min?month=2023-03"
+          href={link}
+          target="_blank"
           className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
           aria-label="Book a tour"
         >

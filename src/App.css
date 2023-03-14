@@ -37,9 +37,6 @@
   }
 }
 
-.hover\:text-\[#73C780\]:hover {
-  color: #73c780;
-}
-.text-\[#73C780\] {
-  color: #73c780;
+.shadow-custom {
+  box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
 }
