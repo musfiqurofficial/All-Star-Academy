@@ -1,6 +1,8 @@
 import React from 'react';
 import birth from '../../../assets/birthday/birth.webp'
 import newb from '../../../assets/birthday//newb.webp'
+import { Link } from 'react-router-dom';
+import Calendly from '../Calendly/Calendly';
 
 const Birthday = () => {
     return (
@@ -61,7 +63,10 @@ const Birthday = () => {
 
 
             </div>
+            <div className='my-10'>
+                <Calendly></Calendly>
 
+            </div>
 
         </div>
     );

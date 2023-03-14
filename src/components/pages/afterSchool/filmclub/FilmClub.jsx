@@ -92,10 +92,10 @@ const FilmClub = () => {
                 <div>
                     <img src="https://cdn-icons-png.flaticon.com/512/3397/3397787.png" alt="" height="300px" width="300px" />
                 </div>
-                <div className="earth">
-                    <h3 className="text-2xl text-black flex justify-center mt-32 p-5">
-                        "EDUCATION IS THE WAY TO MOVE MOUNTAINS, TO BUILD BRIDGES, TO CHANGE THE WORLD" -Oprah Winfrey
-                    </h3>
+                <div className="earth text-center">
+                    <p className="text-2xl text-black flex mt-32 p-5">
+                        "EDUCATION IS THE <br /> WAY TO MOVE <br /> MOUNTAINS, TO <br /> BUILD BRIDGES, TO <br /> CHANGE THE <br /> WORLD" -Oprah <br /> Winfrey
+                    </p>
                 </div>
                 <div>
                     <img src="https://cdn-icons-png.flaticon.com/512/2914/2914180.png" alt="" height="300px" width="300px" />
