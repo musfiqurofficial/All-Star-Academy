@@ -62,7 +62,7 @@ function HomeCard() {
               >
                 <div className="h-full flex flex-col justify-start items-start px-4">
                   <h3 className="text-lg font-semibold">{card.name}</h3>
-                  <p className="text-sm mb-3 mt-1">{card.details}</p>
+                  <p className="text-sm mb-3 mt-1 text-white">{card.details}</p>
                   {hoveredCard === card.id && (
                     <a
                       href={card.watchNowUrl}

@@ -199,9 +199,11 @@ const Navbar = () => {
                 >
                   Book a tour <IoIosArrowForward className="w-5 h-5" />
                 </a>
+                <a href="tel:4255264600">
                 <h6 className="text-[#0170B8] font-light text-sm">
-                  <HiOutlinePhone className="inline w-5 h-5" /> 425-526-4600
+                  <HiOutlinePhone className="inline w-5 h-5" />4255264600
                 </h6>
+                </a>
               </div>
             </li>
           </ul>
