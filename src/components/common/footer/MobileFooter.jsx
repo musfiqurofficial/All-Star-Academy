@@ -18,18 +18,15 @@ const MobileFooter = () => {
           <FontAwesomeIcon icon={faHouse} duotone={true} />
           <span className="text-sm">Home</span>
         </NavLink>
-        <a href="(425) 526-4600">
+        <a href="tel:4255264600">
           <div className="flex flex-col items-center">
             <FontAwesomeIcon icon={faPhone} duotone={true} />
             <span className="text-sm">Phone</span>
           </div>
         </a>
         <div className="flex flex-col justify-between items-center">
-          <a href="brandy@allstarkiddos.com">
-            <FontAwesomeIcon
-              icon={faEnvelope}
-              duotone={true}
-            />
+          <a href="mailto:brandy@allstarkiddos.com">
+            <FontAwesomeIcon icon={faEnvelope} duotone={true} />
           </a>
           <span className="text-sm">Email</span>
         </div>

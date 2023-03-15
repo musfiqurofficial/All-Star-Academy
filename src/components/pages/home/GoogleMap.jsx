@@ -17,13 +17,10 @@ const GoogleMap = () => {
       </div>
       <div className="absolute inset-0 flex items-center justify-center">
         <a
-          className="text-white font-light py-2 px-4 rounded bg-[#016fb816] hover:bg-[#016fb860]"
           href="https://maps.google.com/maps?q=All-Star Academy, Southeast High Point Way, Issaquah, WA, USA&t=&z=10&ie=UTF8&iwloc=&output=embed"
           target="_blank"
-          rel="noreferrer"
           rel="noopener noreferrer"
         >
-          View Larger Map
         </a>
       </div>
     </div>
