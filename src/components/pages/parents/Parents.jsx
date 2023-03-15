@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImg from "../../../assets/Parents/parents.webp";
+import ParentRecent from "./ParentRecent";
 import ParentResources from "./ParentResources";
 
 const Parents = () => {
@@ -20,6 +21,9 @@ const Parents = () => {
         </h1>
       </div>
       <ParentResources />
+      <div>
+        <ParentRecent />
+      </div>
     </div>
   );
 };

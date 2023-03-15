@@ -2,3 +2,5 @@
 ### color2: #73C780
 ### Textcolor3: #093F7C
 ### BG color: #FAFAFA
+
+text-[#0170B8]

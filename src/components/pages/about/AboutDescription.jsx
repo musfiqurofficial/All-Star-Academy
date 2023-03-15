@@ -95,14 +95,14 @@ const AboutDescription = () => {
       <div>
         <div className="">
           {/* 1st Card */}
-          <div className="flex flex-col-reverse lg:flex-row md:flex-col-reverse justify-between items-center">
+          <div id="#staff" className="flex flex-col-reverse lg:flex-row md:flex-col-reverse justify-between items-center">
             <div className="lg:mb-0 lg:w-8/12 lg:pr-5 mb-10">
               <p className="text-base mr-6">
                 From the Director: <br /> <br />
                 "Hello! I am so pleased you found us! If you would would like to
                 speak with me directly to get your questions answered, please
                 schedule a call with me here:
-                <a href={link} target="_blank">
+                <a href={link} target="_blank" rel="noreferrer">
                   {" "}
                   https://calendly.com/brandysimison/20min
                 </a>

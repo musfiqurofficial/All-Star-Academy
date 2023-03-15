@@ -55,7 +55,12 @@ const Footer = () => {
         <div className="flex flex-col justify-between pt-5 pb-8 sm:pb-0 border-t sm:flex-row items-center">
           <p className="text-base">© Copyright 2022 by All-Star Academy.</p>
           <h6 className="text-sm">
-            <a className="underline" target="_blank" href="/terms-of-use">
+            <a
+              className="underline"
+              target="_blank"
+              rel="noreferrer"
+              href="/terms-of-use"
+            >
               Terms of Use
             </a>
           </h6>

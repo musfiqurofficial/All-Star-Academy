@@ -40,3 +40,12 @@
 .shadow-custom {
   box-shadow: rgb(0, 0, 0) 0px 2px 8px 0px;
 }
+
+.weekly-shadow {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.margin{
+  margin-right: 0 !important;
+}

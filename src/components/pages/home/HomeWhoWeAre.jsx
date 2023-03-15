@@ -21,6 +21,7 @@ const HomeWhoWeAre = () => {
           <a
             href={link}
             target="_blank"
+            rel="noreferrer"
             className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center my-2 w-9/12 sm:w-1/2 mx-auto sm:mx-0"
             aria-label="Book a tour"
           >
@@ -62,6 +63,7 @@ const HomeWhoWeAre = () => {
           <a
             href={link}
             target="_blank"
+            rel="noreferrer"
             className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center my-2 w-9/12 sm:w-1/2 mx-auto sm:mx-0"
             aria-label="Book a tour"
           >

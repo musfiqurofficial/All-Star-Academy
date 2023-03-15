@@ -6,15 +6,32 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showMoreDropdown, setShowMoreDropdown] = useState(false);
+  const [showAfterDropdown, setShowAfterDropdown] = useState(false);
+  const [showAboutDropdown, setShowAboutDropdown] = useState(false);
   const currentMonth = new Date().toISOString().slice(0, 7);
   const link = `https://calendly.com/brandysimison/60min?month=${currentMonth}`;
+
+  const toggleMoreDropdown = () => {
+    setShowMoreDropdown(!showMoreDropdown);
+  };
+  const toggleAfterDropdown = () => {
+    setShowAfterDropdown(!showAfterDropdown);
+  };
+  const toggleAboutDropdown = () => {
+    setShowAboutDropdown(!showAboutDropdown);
+  };
 
   let activeStyle = {
     color: "#73C780",
   };
   const menuItems = (
     <>
-      <li>
+      <li
+        className="relative"
+        onMouseEnter={toggleAboutDropdown}
+        onMouseLeave={toggleAboutDropdown}
+      >
         <NavLink
           className="hover:text-[#73C780] text-[14px]"
           to="/about"
@@ -22,6 +39,39 @@ const Navbar = () => {
         >
           ABOUT
         </NavLink>
+        {showAboutDropdown && (
+          <div className="absolute z-10">
+            <ul className="bg-white shadow-md rounded-md w-32 text-center py-2">
+              <li>
+                <a
+                  activeClassName="active"
+                  className="hover:text-[#73C780] text-[14px]"
+                  href="#history"
+                >
+                  History
+                </a>
+              </li>
+              <li>
+                <a
+                  activeClassName="active"
+                  className="hover:text-[#73C780] text-[14px]"
+                  href="#mission"
+                >
+                  Mission
+                </a>
+              </li>
+              <li>
+                <a
+                  activeClassName="active"
+                  className="hover:text-[#73C780] text-[14px]"
+                  href="#staff"
+                >
+                  Staff
+                </a>
+              </li>
+            </ul>
+          </div>
+        )}
       </li>
       <li>
         <NavLink
@@ -41,22 +91,41 @@ const Navbar = () => {
           ADMISSIONS
         </NavLink>
       </li>
-      <li>
-        <NavLink to="/afterschool" className="hover:text-[#73C780]" >
-          <div>
-            <span className="peer">AFTER-SCHOOL</span>
-            <div class="hidden peer-hover:flex hover:flex w-[120px] flex-col bg-white drop-shadow-lg">
-              <Link to="/film" className="px-4 py-2 hover:bg-gray-200">FILM CLUB</Link>
-
-            </div>
-          </div>
+      <li
+        className="relative"
+        onMouseEnter={toggleAfterDropdown}
+        onMouseLeave={toggleAfterDropdown}
+      >
+        <NavLink
+          className="hover:text-[#73C780] text-[14px]"
+          to="/afterschool"
+          style={({ isActive }) => (isActive ? activeStyle : undefined)}
+        >
+          AFTER-SCHOOL
         </NavLink>
+        {showAfterDropdown && (
+          <div className="absolute z-10">
+            <ul className="bg-white shadow-md rounded-md w-32 text-center py-2">
+              <li>
+                <NavLink
+                  activeClassName="active"
+                  className="hover:text-[#73C780] text-[14px]"
+                  to="/film"
+                >
+                  Film-Club
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        )}
       </li>
+
       <li>
         <a
           className="hover:text-[#73C780] text-[14px]"
           href="https://www.6crickets.com/providerDirectory/US/WA/Issaquah/All-Star-Academy-fc79250f8c5b8043/programs/9942-w56b-zb3a/All-Star-Camp!?refer&provider=2439"
           target="_blank"
+          rel="noreferrer"
         >
           CAMPS
         </a>
@@ -70,16 +139,38 @@ const Navbar = () => {
           PARENTS
         </NavLink>
       </li>
-      <li>
-        <NavLink className="hover:text-[#73C780]" >
-          <div>
-            <button class="peer px-5 py-2 text-black">More</button>
-            <div class="hidden peer-hover:flex hover:flex w-[100px] flex-col bg-white drop-shadow-lg">
-              <Link to="/contact" className="px-4 py-2 hover:bg-gray-200">Contact</Link>
-              <Link to="/birthday" className="px-4 py-2 hover:bg-gray-200">Birthday</Link>
-            </div>
+      <li
+        className="relative"
+        onMouseEnter={toggleMoreDropdown}
+        onMouseLeave={toggleMoreDropdown}
+      >
+        <span className="hover:text-[#73C780] text-[14px] cursor-pointer">
+          MORE
+        </span>
+        {showMoreDropdown && (
+          <div className="absolute z-10">
+            <ul className="bg-white shadow-md rounded-md w-32 text-center py-2">
+              <li>
+                <NavLink
+                  activeClassName="active"
+                  className="hover:text-[#73C780] text-[14px]"
+                  to="/birthday"
+                >
+                  BIRTHDAY
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  activeClassName="active"
+                  className="hover:text-[#73C780] text-[14px]"
+                  to="/contact"
+                >
+                  CONTACT
+                </NavLink>
+              </li>
+            </ul>
           </div>
-        </NavLink>
+        )}
       </li>
     </>
   );
@@ -103,7 +194,7 @@ const Navbar = () => {
                 <a
                   href={link}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                   className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase flex justify-around items-center"
                 >
                   Book a tour <IoIosArrowForward className="w-5 h-5" />
@@ -173,6 +264,7 @@ const Navbar = () => {
                           href={link}
                           className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
                           target="_blank"
+                          rel="noreferrer"
                           aria-label="Book a tour"
                         >
                           Book a tour

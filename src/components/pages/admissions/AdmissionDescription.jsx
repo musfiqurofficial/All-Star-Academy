@@ -12,7 +12,7 @@ const AdmissionDescription = () => {
 
                 <div className="mb-6 lg:mb-0 lg:w-7/12 lg:pr-5">
 
-                    <h1 className='text-3xl font-semibold'>New Student Registration</h1>
+                    <h1 className='text-4xl font-semibold'>New Student Registration</h1>
                     <br /><br />
                     <p className='font-sans text-base text-gray-700 mr-6'>
                         We are pleased you are looking into a place for your child! We offer open enrollment throughout the year, therefore we enroll throughout the year until each class is full. Please follow the steps below to reserve a place for your child. Further down you will see tuition rates and other fee schedules. <br /><br /> </p>

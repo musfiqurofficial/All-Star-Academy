@@ -472,7 +472,12 @@ const TermsOfUse = () => {
             <li>
               Assignment. COMPANY may assign its rights and duties under this
               Agreement to any party at any time without notice to you. Please a
-              <a href="/contact" target="_blank" className="underline">
+              <a
+                href="/contact"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
                 Contact Us
               </a>
               if you have any questions or concerns regarding these terms.

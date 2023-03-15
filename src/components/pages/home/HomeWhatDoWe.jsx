@@ -13,7 +13,9 @@ const HomeWhatDoWe = () => {
           <div>
             <div className="flex justify-start items-center gap-5 pb-3">
               <img className="w-14 h-14" src={cognitive} alt="" />
-              <h6 className="text-[#4EBA59] text-base">Cognitive Ability Development Training </h6>
+              <h6 className="text-[#4EBA59] text-base">
+                Cognitive Ability Development Training{" "}
+              </h6>
             </div>
             <p>
               Based upon your child's individual cognitive ability scores, they
@@ -27,7 +29,9 @@ const HomeWhatDoWe = () => {
           <div>
             <div className="flex justify-start items-center gap-5 pb-3">
               <img className="w-14 h-14" src={networking} alt="" />
-              <h6 className="text-[#4EBA59] text-base">Restorative Correction Trained Teachers</h6>
+              <h6 className="text-[#4EBA59] text-base">
+                Restorative Correction Trained Teachers
+              </h6>
             </div>
             <p>
               Restorative correction assures an optimal learning environment is
@@ -43,6 +47,7 @@ const HomeWhatDoWe = () => {
             className="p-4 border-2 border-green-600 bg-[#fff] hover:bg-green-600 hover:text-[#fff] hover:duration-500 font-[600] text-lg uppercase"
             href="/https://allstarkiddos.lpages.co/infopacket/"
             target="_blank"
+            rel="noreferrer"
           >
             Download Info Packet
           </a>

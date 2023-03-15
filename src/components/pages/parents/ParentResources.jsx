@@ -10,6 +10,7 @@ const ParentResources = () => {
             <a
               href="https://secure.gradelink.com/gradelink"
               target="_blank"
+              rel="noreferrer"
             >
               GRADELINK LOGIN
             </a>
@@ -18,6 +19,7 @@ const ParentResources = () => {
             <a
               href="https://allstarkiddos.lpages.co/infopacket/"
               target="_blank"
+              rel="noreferrer"
             >
               STUDENT DIRECTORY
             </a>
@@ -26,6 +28,7 @@ const ParentResources = () => {
             <a
               href="https://allstarkiddos.lpages.co/infopacket/"
               target="_blank"
+              rel="noreferrer"
             >
               2022-23 SCHOOL CALENDAR
             </a>

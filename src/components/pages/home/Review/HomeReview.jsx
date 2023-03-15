@@ -43,6 +43,7 @@ const HomeReview = () => {
         <a
           href={link}
           target="_blank"
+          rel="noreferrer"
           className="px-6 py-3 font-light text-sm border border-[#0170B8] text-[#0170B8] hover:bg-[#0170B8] hover:text-white hover:duration-500 uppercase"
           aria-label="Book a tour"
         >
