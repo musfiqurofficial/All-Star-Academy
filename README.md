@@ -4,3 +4,4 @@
 ### BG color: #FAFAFA
 
 text-[#0170B8]
+### text color: #093F7C
