@@ -6,7 +6,7 @@ const ImpactQuestion = () => {
     return (
         <div>
             <div className=''>
-                <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 my-6'>
+                <div className='flex flex-wrap justify-center gap-20 my-9'>
                     <div>
                         <h1 className='text-5xl font-bold -rotate-12 my-8'>FRIENDSHIP!</h1>
                         <img className='my-24' src={f1} alt="" srcset="" />
@@ -41,29 +41,29 @@ const ImpactQuestion = () => {
             </section>
 
 
-            <div className='px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8'>
-                <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 '>
-                    {/* 1st grid */}
-                    <div>
-                        <img className='h-52 border-round p-1' src="https://cdn-icons-png.flaticon.com/512/3840/3840674.png" alt="" srcset="" />
-                    </div>
+            <div className='flex flex-wrap justify-center gap-20'>
 
-                    {/* 2nd grid */}
-                    <div className='col-span-2 text-center'>
-                        <h1 className='text-4xl font-semibold'>FOR FURTHER QUESTIONS:</h1> <br />
-                        <p><span className='text-2xl font-semibold'>Email Us Here:</span> <br />
-                            GraceNatalie1@outlook.com <br />
-                            taylorjonson3@gmail.com</p>
-                    </div>
-
-                    {/* 3rd grid */}
-                    <div>
-                        <img className='h-52 p-1' src="https://cdn-icons-png.flaticon.com/512/3840/3840674.png" alt="" srcset="" />
-                    </div>
-
-
-
+                {/* 1st grid */}
+                <div className='items-center'>
+                    <img className='h-52 border-round p-1' src="https://cdn-icons-png.flaticon.com/512/3840/3840674.png" alt="" srcset="" />
                 </div>
+
+                {/* 2nd grid */}
+                <div className='col-span-2 text-center'>
+                    <h1 className='text-4xl font-semibold'>FOR FURTHER QUESTIONS:</h1> <br />
+                    <p><span className='text-2xl font-semibold'>Email Us Here:</span> <br />
+                        GraceNatalie1@outlook.com <br />
+                        taylorjonson3@gmail.com</p>
+                </div>
+
+                {/* 3rd grid */}
+                <div>
+                    <img className='h-52 p-1' src="https://cdn-icons-png.flaticon.com/512/3840/3840674.png" alt="" srcset="" />
+                </div>
+
+
+
+
 
             </div>
 

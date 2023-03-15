@@ -1,9 +1,14 @@
 import React from 'react';
 import '../filmclub/Film.css'
+import ac from '../../../../assets/School/Film-Club/ac.webp'
+import ca from '../../../../assets/School/Film-Club/ca.webp'
+import st from '../../../../assets/School/Film-Club/st.webp'
+import sc from '../../../../assets/School/Film-Club/sc.webp'
+import li from '../../../../assets/School/Film-Club/li.webp'
 
 const FilmClub = () => {
     return (
-        <div>
+        <div className='mx-auto max-w-full md:max-w-11/12 lg:max-w-screen-2xl' >
             <section class="fast_section bg-[#0170B8] h-[350px] w-full">
                 <h1 class="text-3xl md:text-6xl pt-20 font-bold">Film Club!</h1>
                 <p class=" text-center text-xl md:text-xl font-semibold py-40 text-white ">
@@ -57,6 +62,7 @@ const FilmClub = () => {
             <section className="grid grid-cols-1  md:grid-cols-2 border-2 border-black">
                 <div className="p-5">
                     <img className='w-auto h-36' src="https://cdn-icons-png.flaticon.com/512/1666/1666608.png" alt="" />
+
                     <div className="grid justify-items-center content-center gap-4  p-10">
                         <h2 className="text-3 md:text-6xl"> Lessons! </h2>
                         <p>
@@ -73,34 +79,55 @@ const FilmClub = () => {
                 </div>
 
                 <div className="gredent_color">
-                    <div className="flex justify-between p-5">
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                    </div>
-                    <center>
-                        <img className="flex justify-center" src="" alt="" />
-                    </center>
-                    <div className="flex justify-between p-5">
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+
+                    <div className='my-14'>
+                        <div className="flex justify-between p-5 gap-5">
+                            <img src={sc} alt="" />
+                            <img src={ca} alt="" />
+                        </div>
+                        <center>
+                            <img className="flex justify-center" src={st} alt="" />
+                        </center>
+                        <div className="flex justify-between p-5 gap-5">
+                            <img src={ac} alt="" />
+                            <img src={li} alt="" />
+                        </div>
                     </div>
                 </div>
+
             </section>
 
             {/* 4 section start */}
-            <section className="grid grid-cols-1 md:grid-cols-3 mt-5 p-10 justify-between gap-10">
+            {/* <section className="grid grid-cols-1 sm:grid-cols-3 my-5 ">
+
                 <div>
                     <img src="https://cdn-icons-png.flaticon.com/512/3397/3397787.png" alt="" height="300px" width="300px" />
                 </div>
-                <div className="earth text-center">
-                    <p className="text-2xl text-black flex mt-32 p-5">
+                <div className="earth flex justify-center items-center text-center">
+                    <p className="text-2xl text-black">
                         "EDUCATION IS THE <br /> WAY TO MOVE <br /> MOUNTAINS, TO <br /> BUILD BRIDGES, TO <br /> CHANGE THE <br /> WORLD" -Oprah <br /> Winfrey
                     </p>
                 </div>
-                <div>
+                <div className=''>
                     <img src="https://cdn-icons-png.flaticon.com/512/2914/2914180.png" alt="" height="300px" width="300px" />
                 </div>
-            </section>
+
+            </section> */}
+            <div class="flex flex-wrap justify-center gap-10 my-5">
+                <div class="w-3/12 m-4">
+                    <img className='w-full' src="https://cdn-icons-png.flaticon.com/512/3397/3397787.png" alt="" height="300px" width="300px" />
+
+                </div>
+                <div className="earth flex justify-center items-center text-center w-3/12 m-4">
+                    <p className="text-2xl text-black">
+                        "EDUCATION IS THE <br /> WAY TO MOVE <br /> MOUNTAINS, TO <br /> BUILD BRIDGES, TO <br /> CHANGE THE <br /> WORLD" -Oprah <br /> Winfrey
+                    </p>
+                </div>
+                <div className='w-3/12 m-4'>
+                    <img src="https://cdn-icons-png.flaticon.com/512/2914/2914180.png" alt="" height="300px" width="300px" />
+                </div>
+            </div>
+
             {/* 5 section start */}
             <section className="grid grid-cols-1 md:grid-cols-2 border-2 border-black">
                 <div className="p-5">
