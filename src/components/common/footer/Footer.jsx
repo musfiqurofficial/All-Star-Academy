@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-[#fff] mt-10">
       <div className="px-4 mx-auto max-w-full md:max-w-full lg:max-w-screen-xl md:px-18 lg:px-8 py-5">
-        <div className="grid gap-8 row-gap-10 mb-8 lg:grid-cols-4">
+        <div className="grid gap-8 row-gap-10 mb-8 lg:grid-cols-4 divide-y sm:divide-y-0 divide-x-0 sm:divide-x">
           <div className="md:max-w-md lg:col-span-1">
             <Link
               to="/"
@@ -18,7 +18,7 @@ const Footer = () => {
               <img className="w-auto h-[80px]" src={logo} alt="" />
             </Link>
           </div>
-          <div className="grid grid-cols-1 gap-5 row-gap-8 lg:col-span-3 md:grid-cols-3 text-center">
+          <div className="grid grid-cols-1 gap-5 row-gap-8 lg:col-span-3 md:grid-cols-3 text-center divide-y sm:divide-y-0 divide-x-0 sm:divide-x">
             <div>
               <h4 className="font-[600] mb-5">Address</h4>
               <ul className="mt-2 space-y-2">
@@ -29,18 +29,25 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className=""> 
               <h4 className="font-[600] text-[24px] mb-5">Contact Us</h4>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <h6 className="text-base">Tel: 425-526-4600</h6>
+                  <a href="tel:4255264600" className="text-base">
+                    Tel: 425-526-4600
+                  </a>
                 </li>
                 <li>
-                  <h6 className="text-base">Email: brandy@allstarkiddos.com</h6>
+                  <a
+                    href="mailto:brandy@allstarkiddos.com"
+                    className="text-base"
+                  >
+                    Email: brandy@allstarkiddos.com
+                  </a>
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="">
               <h4 className="font-[600] text-[24px] mb-5">
                 Registration Info:
               </h4>
@@ -66,7 +73,7 @@ const Footer = () => {
           </h6>
           <div className="flex items-center mt-4 space-x-4 sm:mt-0">
             <a
-              href="/"
+              href="https://twitter.com/allstarkiddos"
               className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -74,7 +81,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="/"
+              href="https://www.instagram.com/allstar_kiddos/"
               className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -83,7 +90,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="/"
+              href="https://www.facebook.com/allstarkiddos"
               className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
