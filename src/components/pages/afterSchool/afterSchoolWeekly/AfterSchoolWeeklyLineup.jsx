@@ -7,6 +7,8 @@ import wed1 from "../../../../assets/School/Card/wed1.webp";
 import wed2 from "../../../../assets/School/Card/wed2.webp";
 import friday1 from "../../../../assets/School/Card/friday1.webp";
 import friday2 from "../../../../assets/School/Card/friday2.webp";
+import thus1 from "../../../../assets/School/Card/thus1.webp";
+import thus2 from "../../../../assets/School/Card/thus2.webp";
 
 const AfterSchoolWeeklyLineup = () => {
   return (
@@ -83,7 +85,7 @@ const AfterSchoolWeeklyLineup = () => {
             <div class="ml-4 md:ml-52 p-2 shadow-md shadow-slate-300">
               <img
                 class="mb-4 w-full md:w-[338px] h-[425px] object-cover"
-                src={Tuesday1}
+                src={tuesday2}
                 alt=""
               />
             </div>
@@ -91,17 +93,15 @@ const AfterSchoolWeeklyLineup = () => {
 
           <div class="flex flex-col gap-y-6 mt-10 md:mt-0">
             <div class="ml-4 p-2 md:w-[338px] h-[425px] shadow-md shadow-slate-300">
-              <img class="mb-10 w-full h-full object-cover" src={tuesday2} alt="" />
+              <img class="mb-10 w-full h-full object-cover" src={Tuesday1} alt="" />
               <p class="text-center">*Weather Depending</p>
             </div>
-            <p class="-z-10 -ml-10 border-4 rounded-full border-[#4EBA59] py-4 rounded-l-none w-full md:w-9/12 px-4 md:px-7 md:mr-64 text-center text-base md:text-lg lg:mt-10 mt-12">
-              <span class="font-medium text-2xl md:text-2xl">
+            <p class="-z-10 -ml-10 border-4 rounded-full border-[#4EBA59] py-4 rounded-l-none w-full md:w-9/12 px-4 md:px-4 md:mr-64 text-center text-base md:text-lg lg:mt-10 mt-12">
+              <span class="font-medium text-[20px]">
                 Alternative: Trampolines, Art, Free-play! <br />
               </span>
 
-              On-site in our playground area and in our
-
-              classrooms!
+              On-site in our playground area and in our classrooms!
             </p>
           </div>
         </div>
@@ -114,18 +114,16 @@ const AfterSchoolWeeklyLineup = () => {
               - Wednesday -
             </h2>
             <p class="border-4 rounded-full border-[#4EBA59] py-4 rounded-r-none w-full md:w-9/12 px-5 md:px-7 md:ml-60 text-center text-base md:text-lg">
-              <span class="font-medium text-2xl md:text-3xl">
-                Film Club 3:45-4:45p
+              <span class="font-medium text-[20px]">
+                Horseback Riding!* 2-3:30p & 3:45-5:15p
               </span>
               <br />
-              How to make a film A-Z. Kids are grouped
-              <br />
-              for age-appropriate curriculum
+              On-site in our horse paddock & on the Preston-Fall City Trail!
             </p>
             <div class="ml-4 md:ml-52 p-2 shadow-md shadow-slate-300">
               <img
                 class="mb-4 w-full md:w-[338px] h-[425px] object-cover"
-                src={Tuesday1}
+                src={wed2}
                 alt=""
               />
             </div>
@@ -133,17 +131,15 @@ const AfterSchoolWeeklyLineup = () => {
 
           <div class="flex flex-col gap-y-6 mt-10 md:mt-0">
             <div class="ml-4 p-2 md:w-[338px] h-[425px] shadow-md shadow-slate-300">
-              <img class="mb-10 w-full h-full object-cover" src={tuesday2} alt="" />
+              <img class="mb-10 w-full h-full object-cover" src={wed1} alt="" />
               <p class="text-center">*Weather Depending</p>
             </div>
-            <p class="-z-10 lg:-ml-12 border-4 rounded-full border-[#4EBA59] py-3 rounded-l-none w-full md:w-9/12 px-6 md:px-7 md:mr-64 text-center text-base md:text-lg lg:mt-10 mt-12">
-              <span class="font-medium text-2xl md:text-3xl">
-                Alternative: Trampolines, Art, Free-play!
+            <p class="-z-10 lg:-ml-12 border-4 rounded-full border-[#4EBA59] py-3 rounded-l-none w-full md:w-10/12 px-5 md:px-4 md:mr-64 text-center text-base md:text-lg lg:mt-10 mt-12">
+              <span class=" font-medium text-[20px]">
+                Optional**: Cognitive Ability Training
               </span>
               <br />
-              On-site in our playground area and in our
-              <br />
-              classrooms!
+              Guaranteed to improve executive processing, processing speed, attention control, learning speed, and memory recall. <span className="underline">Click here</span> to download the info packet.
             </p>
           </div>
         </div>
@@ -167,7 +163,7 @@ const AfterSchoolWeeklyLineup = () => {
             <div class="ml-4 md:ml-52 p-2 shadow-md shadow-slate-300">
               <img
                 class="mb-4 w-full md:w-[338px] h-auto md:h-[425px]"
-                src={wed2}
+                src={thus2}
                 alt=""
                 srcset=""
               />
@@ -176,7 +172,7 @@ const AfterSchoolWeeklyLineup = () => {
 
           <div class="flex flex-col gap-6">
             <div class="ml-4 p-2 w-full md:w-[338px] h-auto md:h-[425px] shadow-md shadow-slate-300">
-              <img class="mb-10" src={wed1} alt="" srcset="" />
+              <img class="mb-10" src={thus1} alt="" srcset="" />
               <p class="text-center">*Weather Depending</p>
             </div>
 
